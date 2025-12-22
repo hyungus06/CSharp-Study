@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace API_002.CoincheckGet
+namespace API_002.Models
 {
     public class CoincheckJson
     {

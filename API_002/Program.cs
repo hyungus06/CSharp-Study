@@ -1,5 +1,6 @@
 ﻿using System;
 using API_002.Services;
+using API_002.Utils;
 
 namespace API_002
 {
@@ -7,9 +8,7 @@ namespace API_002
     {
         static async Task Main()
         {
-            Console.WriteLine("==================================");
-            Console.WriteLine("|BTC/JPY げんざいかかくしょうかい|");
-            Console.WriteLine("==================================");
+            ConsolePrinter.PrintHeader();
 
             ApiService apiService = new ApiService();
             await apiService.GetBtcJpyTicker();

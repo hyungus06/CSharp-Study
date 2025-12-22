@@ -1,6 +1,6 @@
-﻿using API_002.CoincheckGet;
-using System;
+﻿using System;
 using System.Text.Json;
+using API_002.CoincheckGet;
 
 namespace API_002.Services
 {
